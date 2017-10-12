@@ -1,16 +1,29 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
+import { NavbarComponent } from './navbar.component';
+import { GalleryComponent } from './gallery/gallery.component';
+
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
+
+
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavbarComponent,
+    GalleryComponent
   ],
   imports: [
-    BrowserModule
+  	BrowserModule,
+  	MDBBootstrapModule.forRoot()
+    
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas: [ NO_ERRORS_SCHEMA ]
 })
-export class AppModule { }
+export class AppModule { 
+}
