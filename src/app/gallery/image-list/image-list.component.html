@@ -1,0 +1,7 @@
+<ng-image-detail [selectedImage]="selectedImage"></ng-image-detail>
+<div class="container mt-5">
+<div class="row">	
+	<ng-image class="col-6 col-sm-4 col-md-3 pb-3" *ngFor="let image of images | async" [image]="image" (click)="onSelect(image)"></ng-image>	
+</div>
+</div>
+

@@ -1,0 +1,24 @@
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="list-group mt-5">
+				<div class="list-group-item active">
+					<h4><i class="fa fa-user" aria-hidden="true"></i> Administrar Usuario</h4>
+				</div>
+				<div class="list-group-item">
+					<a [routerLink]="['/admin/users']" class="btn btn-default">Todos los usuarios</a>
+					<a [routerLink]="['/admin/users/create']" class="btn btn-primary">Nuevo Usuario</a>
+				</div>
+			</div>
+			<div class="list-group mt-5">
+				<div class="list-group-item active">
+					<h4><i class="fa fa-picture-o" aria-hidden="true"></i> Administrar Imágenes</h4>
+				</div>
+				<div class="list-group-item">
+					<a [routerLink]="['/admin/images']" class="btn btn-default">Todas las imágenes</a>
+					<a [routerLink]="['/admin/images/create']" class="btn btn-primary">Nueva Imagen</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

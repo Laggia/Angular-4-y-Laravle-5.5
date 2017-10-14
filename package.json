@@ -23,6 +23,7 @@
     "@angular/platform-browser-dynamic": "^4.2.4",
     "@angular/router": "^4.2.4",
     "angular-bootstrap-md": "^4.3.7",
+    "angular-font-awesome": "^2.3.5",
     "bootstrap": "^4.0.0-beta",
     "chart.js": "^2.5.0",
     "core-js": "^2.4.1",
